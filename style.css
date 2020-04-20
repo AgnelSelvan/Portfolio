@@ -241,7 +241,7 @@ li span a:hover {
 
 .first-sub-cont {
     padding-left: 100px;
-    width: 100vw
+    width: 90vw
 }
 
 .nav-desk {
@@ -791,6 +791,14 @@ a:hover {
     font-size: 22px;
 }
 
+.upper-nav {
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0 6px 20px 0 rgba(184, 184, 184, 0.2);
+}
+
 
 /* Tablets */
 
@@ -956,16 +964,24 @@ a:hover {
     }
     .hero-tag {
         margin-top: 20vh;
+        width: 100%;
         font-size: 4em;
+    }
+    .upper-nav {
+        position: fixed;
+        z-index: 1;
+        width: 100vw;
+        background-color: #fff;
+        box-shadow: 0 6px 20px 0 rgba(184, 184, 184, 0.2);
     }
     #hero-right {
         display: none;
     }
-    .hero-des {
+    /* .hero-des {
         padding-right: 30px;
-    }
+    } */
     .menu-wrap {
-        display: block;
+        display: flex;
     }
     .menu ul li {
         display: block !important;
@@ -974,45 +990,14 @@ a:hover {
         color: var(--black-color) !important;
     }
     .menu-wrap .hamburger {
-        z-index: 2;
+        margin-top: 10px;
+        z-index: 1;
     }
     .menu-wrap .toggler {
         z-index: 3;
     }
     .contact-hero {
         margin-top: 10vh;
-    }
-    .footer-full {
-        text-align: center;
-        padding-top: 40px !important;
-    }
-    #contact-social {
-        margin-top: 10%;
-    }
-    .footer-credits {
-        display: block;
-        text-align: center;
-        padding-top: 10px;
-        float: none;
-    }
-    #legal-hero {
-        margin-top: 5vh !important;
-        text-align: left;
-    }
-    #legal-hero-des {
-        padding-right: 10px;
-        text-align: left;
-        font-size: 0.8em;
-    }
-    .privacy-policy p {
-        padding-right: 1vw;
-        /* text-align: left; */
-    }
-    .project-star {
-        display: none;
-    }
-    .project-star-mobile {
-        display: block;
     }
 }
 
