@@ -336,13 +336,24 @@ li span a:hover {
 
 .underline::after {
     content: "";
-    height: 14px;
-    width: 100%;
+    height: 13px;
+    width: 90%;
     background-color: #28Ab87;
     position: absolute;
     left: 0%;
     bottom: 10px;
     opacity: 0.6;
+}
+
+.project-exhibition {
+    padding-left: 15px;
+    font-size: 14px
+}
+
+.project-exhibition:hover {
+    padding-left: 15px;
+    font-size: 14px;
+    color: #28ab87;
 }
 
 .third-cont {
@@ -778,7 +789,6 @@ a:hover {
 .contact-wrapper {
     width: 100vw;
     padding: 100px 100px;
-    background-color: #fff
 }
 
 .copyright-wrapper {
@@ -797,6 +807,12 @@ a:hover {
     width: 100vw;
     background-color: #fff;
     box-shadow: 0 6px 20px 0 rgba(184, 184, 184, 0.2);
+}
+
+.achivement-wrapper {
+    width: 100vw;
+    background-color: #fff;
+    padding: 20px 100px;
 }
 
 
